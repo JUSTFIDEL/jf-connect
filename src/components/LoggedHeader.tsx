@@ -1,9 +1,9 @@
 import Link from 'next/link';
 import React from 'react';
 
-const Header = () => {
+const LoggedHeader = () => {
   return (
-    <header className='hidden sm:block sm:bg-[#1c1d30] sm:h-16 sm:p-2 sm:sticky sm:top-0 sm:z-20 sm:text-white'>
+    <header className='bg-[#1c1d30] h-16 p-2 sticky top-0 z-20 text-white'>
       <div className='flex h-12 items-center justify-between w-full'>
         <div className='flex items-center gap-2'>
           <Link
@@ -21,4 +21,4 @@ const Header = () => {
   );
 };
 
-export default Header;
+export default LoggedHeader;
