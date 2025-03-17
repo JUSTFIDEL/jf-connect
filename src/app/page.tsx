@@ -6,14 +6,14 @@ export default function Home() {
   // const loggedIn = useState(false);
 
   return (
-    <div className='grid grid-rows-[20px_1fr_20px] min-h-screen p-8 pb-20 sm:p-20 font-[family-name:var(--font-geist-sans)]'>
-      <main className='flex flex-col items-center text-center'>
-        <div className='w-full max-w-2xl p-5'>
-          <h1 className='text-3xl font-bold text-center sm:text-5xl'>
+    <div className='grid grid-rows-[20px_1fr_20px] min-h-screen p-4 pb-20 sm:px-20 font-[family-name:var(--font-geist-sans)]'>
+      <main className='flex flex-col items-center text-center max-w-7xl mx-auto'>
+        <div className='w-full max-w-3xl'>
+          <h1 className='text-2xl/8 font-bold text-center sm:text-5xl/15'>
             Comprehensive <span className='text-green-400'>Vehicle</span>{' '}
             Sourcing Service
           </h1>
-          <p>
+          <p className='text-[#a6a5ca] text-base'>
             Let us help you get a vehicle for yourself, your friends, or your
             loved ones
           </p>
