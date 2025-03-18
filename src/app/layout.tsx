@@ -26,7 +26,7 @@ export default function RootLayout({
   return (
     <html lang='en'>
       <body
-        className={`${geistSans.variable} ${geistMono.variable} bg-[#141523] text-white antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} bg-[#141523] bg-no-repeat bg-cover bg-center max-h-[50dvh] text-white antialiased`}
       >
         <Header />
         {children}
@@ -34,3 +34,5 @@ export default function RootLayout({
     </html>
   );
 }
+
+// bg-[url(/images/cars.png]

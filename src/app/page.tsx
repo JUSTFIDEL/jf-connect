@@ -9,7 +9,7 @@ export default function Home() {
     <div className='grid grid-rows-[20px_1fr_20px] min-h-screen p-4 pb-20 sm:px-20 font-[family-name:var(--font-geist-sans)]'>
       <main className='flex flex-col items-center text-center max-w-7xl mx-auto'>
         <div className='w-full max-w-3xl'>
-          <h1 className='text-2xl/8 font-bold text-center sm:text-5xl/15'>
+          <h1 className='text-3xl/8 font-extrabold text-center sm:text-5xl/15'>
             Comprehensive <span className='text-green-400'>Vehicle</span>{' '}
             Sourcing Service
           </h1>
