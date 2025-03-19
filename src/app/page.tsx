@@ -1,3 +1,4 @@
+import Card from '@/components/Card';
 import { Button } from '@/components/ui/button';
 import Image from 'next/image';
 // import { useState } from 'react';
@@ -13,10 +14,16 @@ export default function Home() {
             Comprehensive <span className='text-green-400'>Vehicle</span>{' '}
             Sourcing Service
           </h1>
-          <p className='text-[#a6a5ca] text-base'>
+          <p className='text-[#a6a5ca] text-base py-2'>
             Let us help you get a vehicle for yourself, your friends, or your
             loved ones
           </p>
+        </div>
+
+        <div className='flex w-full gap-2'>
+          <Card />
+          <Card />
+          <Card />
         </div>
       </main>
     </div>
