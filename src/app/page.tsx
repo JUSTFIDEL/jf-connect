@@ -1,7 +1,7 @@
 import Card from '@/components/Card';
 import { Button } from '@/components/ui/button';
 import Image from 'next/image';
-// import { envelop } from '@lucide-react';
+import { Mail, PhoneCall } from 'lucide-react';
 export default function Home() {
   // const loggedIn = useState(false);
 
@@ -43,11 +43,11 @@ export default function Home() {
             </div>
             <div className='flex flex-col gap-4 w-full xl:max-w-[450px] bg-[#1d1e30] flex-1/2 p-8 xl:rounded-sm'>
               <h1 className='text-2xl font-bold'>Sign Up for free</h1>
-              <div>
+              <div className='flex relative'>
                 <input
                   type='email'
-                  placeholder='Email address'
-                  className='w-full gap-2 p-2 bg-[#2f3043] outline rounded transparent text-[#8b8bb0]'
+                  placeholder='✉︎ Email address'
+                  className='w-full gap-2 pl-8 p-2 bg-[#2f3043] outline rounded transparent text-[#8b8bb0] placeholder-gray-300'
                 />
               </div>
               <Button
