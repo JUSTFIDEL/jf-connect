@@ -118,6 +118,6 @@
     @apply border-border outline-ring/50;
   }
   body {
-    @apply bg-background text-foreground bg-[url('/images/cars.png')];
+    @apply bg-background text-foreground bg-[url('/images/cars.png')] bg-no-repeat bg-cover bg-center max-h-[50dvh];
   }
 }

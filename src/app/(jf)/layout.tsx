@@ -25,7 +25,7 @@ export default function RootLayout({
 }>) {
   return (
     <div
-      className={`${geistSans.variable} ${geistMono.variable} bg-[#141523] bg-no-repeat bg-cover bg-center max-h-[50dvh] text-white antialiased`}
+      className={`${geistSans.variable} ${geistMono.variable} bg-[#141523] text-white antialiased`}
     >
       {/* <LoggedHeader /> */}
       {children}

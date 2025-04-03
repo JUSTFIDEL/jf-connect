@@ -2,6 +2,11 @@ import Card from '@/components/Card';
 import { Button } from '@/components/ui/button';
 import Image from 'next/image';
 import { Mail, PhoneCall } from 'lucide-react';
+// import {
+//   RegisterLink,
+//   LoginLink,
+// } from '@kinde-oss/kinde-auth-nextjs/components';
+
 export default function Home() {
   // const loggedIn = useState(false);
 
