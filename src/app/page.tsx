@@ -11,10 +11,10 @@ export default function Home() {
   // const loggedIn = useState(false);
 
   return (
-    <div className='grid grid-rows-[20px_1fr_20px] min-h-screen pb-20 md:px-20 font-[family-name:var(--font-geist-sans)]'>
+    <div className='grid grid-rows-[20px_1fr_20px] min-h-screen pb-20 '>
       <main className='w-full'>
-        <div className='flex flex-col items-center text-center  mx-auto'>
-          <div className='w-full sm:max-w-3xl px-10 py-4'>
+        <div className='flex flex-col items-center text-center mx-auto mb-10 py-5'>
+          <div className='w-full sm:max-w-3xl px-10 py-5 drop'>
             <h1 className='text-3xl/8 font-extrabold text-center sm:text-5xl/15'>
               Comprehensive <span className='text-green-400'>Vehicle</span>{' '}
               Sourcing Service
@@ -25,8 +25,8 @@ export default function Home() {
             </p>
           </div>
 
-          <div className='flex flex-col w-full items-center gap-4 xl:flex-row xl:items-start  md:justify-between md:max-w-[1120px]'>
-            <div className='flex gap-4 flex-1/2 px-4'>
+          <div className='flex flex-col w-full items-center gap-4 mt-6 md:flex-col xl:flex-row xl:items-start md:justify-between md:max-w-[1100px]'>
+            <div className='flex gap-4 flex-1/2 px-4 mb-6'>
               <Card
                 title='Camry'
                 desc='2013'
@@ -46,7 +46,8 @@ export default function Home() {
                 image='/images/car3.jpg'
               />
             </div>
-            <div className='flex flex-col gap-4 w-full xl:max-w-[450px] bg-[#1d1e30] flex-1/2 p-8 xl:rounded-sm'>
+
+            <div className='flex flex-col gap-4 w-full md:max-w-[720px] xl:max-w-[450px] bg-[#1d1e30] flex-1/2 p-8 xl:rounded-sm'>
               <h1 className='text-2xl font-bold'>Sign Up for free</h1>
               <div className='flex relative'>
                 <input
@@ -62,9 +63,28 @@ export default function Home() {
               >
                 Sign Up
               </Button>
+              <h1 className='text-2xl font-bold mt-4'>or Sign In</h1>
+              <div className='flex relative'>
+                <input
+                  type='email'
+                  placeholder='✉︎ Email address'
+                  className='w-full gap-2 pl-8 p-2 bg-[#2f3043] outline rounded transparent text-[#8b8bb0] placeholder-gray-300'
+                />
+              </div>
+              <Button
+                variant='green'
+                size='lg'
+                className='p-4 font-bold text-[16px]'
+              >
+                Sign In
+              </Button>
             </div>
           </div>
         </div>
+
+        <section className='bg-yellow-50 my-10'>
+          <div className='mx-10'>Hello</div>
+        </section>
       </main>
     </div>
   );

@@ -24,9 +24,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <div
-      className={`${geistSans.variable} ${geistMono.variable} bg-[#141523] text-white antialiased`}
-    >
+    <div className=''>
       {/* <LoggedHeader /> */}
       {children}
     </div>

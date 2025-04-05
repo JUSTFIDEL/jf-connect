@@ -121,3 +121,20 @@
     @apply bg-background text-foreground bg-[url('/images/cars.png')] bg-no-repeat bg-cover bg-center max-h-[50dvh];
   }
 }
+
+.drop {
+  animation-name: drop;
+  animation-duration: 1200ms;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes drop {
+  from {
+    transform: translateY(-70%);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0%);
+    opacity: 1;
+  }
+}
