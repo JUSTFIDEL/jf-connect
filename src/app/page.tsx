@@ -15,7 +15,7 @@ export default function Home() {
       <main className='w-full'>
         <div className='flex flex-col items-center text-center mx-auto mb-10 py-5'>
           <div className='w-full sm:max-w-3xl px-10 py-5 drop'>
-            <h1 className='text-3xl/8 font-extrabold text-center sm:text-5xl/15'>
+            <h1 className='text-4xl font-extrabold text-center sm:text-5xl/15'>
               Comprehensive <span className='text-green-400'>Vehicle</span>{' '}
               Sourcing Service
             </h1>
