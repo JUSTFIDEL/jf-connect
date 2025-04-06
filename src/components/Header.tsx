@@ -7,7 +7,7 @@ import { MenuBar } from './MenuBar';
 
 const Header = () => {
   return (
-    <header className='bg-[#1c1d30] sticky top-0 z-20 text-white px-4 py-2 sm:px-10 sm:py-3 w-full'>
+    <header className='bg-[#1c1d30] w-full sticky top-0 z-20 text-white px-4 py-2 sm:px-10 sm:py-3'>
       <div className='flex mx-auto h-12 items-center justify-between w-full sm:max-w-7xl lg:max-w-[100%] lg:px-10'>
         <div className='sm:hidden'>
           <Link

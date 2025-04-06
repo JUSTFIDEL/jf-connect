@@ -11,7 +11,7 @@ export default function Home() {
   // const loggedIn = useState(false);
 
   return (
-    <div className='grid grid-rows-[20px_1fr_20px] min-h-screen pb-20 '>
+    <div className='min-h-screen pb-20 '>
       <main className='w-full'>
         <div className='flex flex-col items-center text-center mx-auto mb-10 py-5'>
           <div className='w-full sm:max-w-3xl px-10 py-5 drop'>
@@ -25,8 +25,8 @@ export default function Home() {
             </p>
           </div>
 
-          <div className='flex flex-col w-full items-center gap-4 mt-6 md:flex-col xl:flex-row xl:items-start md:justify-between md:max-w-[1100px]'>
-            <div className='flex gap-4 flex-1/2 px-4 mb-6'>
+          <div className='flex flex-col px-4 w-full justify-between mt-2 md:flex-col xl:flex-row xl:items-start md:justify-between md:max-w-[1100px]'>
+            <div className='flex mb-6 gap-2 overflow-scroll no-scrollbar'>
               <Card
                 title='Camry'
                 desc='2013'
@@ -47,7 +47,7 @@ export default function Home() {
               />
             </div>
 
-            <div className='flex flex-col gap-4 w-full md:max-w-[720px] xl:max-w-[450px] bg-[#1d1e30] flex-1/2 p-8 xl:rounded-sm'>
+            <div className='flex flex-col gap-4 w-full md:max-w-[650px] xl:max-w-[450px] bg-[#1d1e30] flex-1/2 p-8 xl:rounded-sm'>
               <h1 className='text-2xl font-bold'>Sign Up for free</h1>
               <div className='flex relative'>
                 <input
