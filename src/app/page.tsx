@@ -2,6 +2,7 @@ import Card from '@/components/Card';
 import { Button } from '@/components/ui/button';
 import Image from 'next/image';
 import { Mail, PhoneCall } from 'lucide-react';
+
 // import {
 //   RegisterLink,
 //   LoginLink,
@@ -11,7 +12,7 @@ export default function Home() {
   // const loggedIn = useState(false);
 
   return (
-    <div className='min-h-screen pb-20 '>
+    <div className='min-h-screen pb-20 relative'>
       <main className='w-full'>
         <div className='flex flex-col items-center text-center mx-auto mb-10 py-5'>
           <div className='w-full sm:max-w-3xl px-10 py-5 drop'>
