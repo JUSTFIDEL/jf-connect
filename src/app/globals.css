@@ -128,6 +128,12 @@
   animation-timing-function: ease-in-out;
 }
 
+.drop-s {
+  animation-name: drop-s;
+  animation-duration: 500ms;
+  animation-timing-function: ease-in-out;
+}
+
 @keyframes drop {
   from {
     transform: translateY(-70%);
@@ -135,6 +141,17 @@
   }
   to {
     transform: translateY(0%);
+    opacity: 1;
+  }
+}
+
+@keyframes drop-s {
+  from {
+    transform: translateX(-70%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0%);
     opacity: 1;
   }
 }

@@ -19,17 +19,17 @@ export const MenuBar = () => {
 
   return (
     <div
-      className='sm:hidden transition-all ease-in-out '
+      className='sm:hidden transition-all ease-in-out'
       onClick={toggle}
       title='Menu'
     >
-      <div className='absolute top-5 right-5 z-100'>
+      <div className='absolute top-5 right-5 z-100 transition-all ease-in-out'>
         {isOpen ? (
           <div>
             <X />
           </div>
         ) : (
-          <div className=''>
+          <div>
             <Menu />
           </div>
         )}
@@ -39,22 +39,22 @@ export const MenuBar = () => {
         onClick={toggle1}
         className={
           isOpen
-            ? 'absolute top-0 right-0 min-w-[100%] min-h-dvh p-10 bg-[#1c1d30] text-[18px] transition-all ease-in-out'
-            : 'sm:hidden translate-x-[100%]'
+            ? 'absolute top-0 right-0 min-w-[100%] min-h-dvh p-10 bg-[#1c1d30] text-[18px] transition-all ease-in-out drop-s'
+            : 'hidden translate-x-2/6 transition-all ease-in-out'
         }
       >
-        <div className='mt-10 ml-4'>
-          <ul className='mt-20 hover:border-b-3 hover:border-green-700'>
+        <div className='mt-10'>
+          <ul className='mt-20 hover:text-white/70'>
             <Link href='/' title='Home'>
               Home
             </Link>
           </ul>
-          <ul className='mt-20 hover:border-b-3 hover:border-green-700'>
+          <ul className='mt-20 hover:text-white/70'>
             <Link href='/about' title='About'>
               About
             </Link>
           </ul>
-          <ul className='mt-20 hover:border-b-3 hover:border-green-700'>
+          <ul className='mt-20 hover:text-white/70'>
             <Link href='/contact' title='Contact'>
               Contact
             </Link>
