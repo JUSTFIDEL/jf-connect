@@ -23,13 +23,13 @@ export const MenuBar = () => {
       onClick={toggle}
       title='Menu'
     >
-      <div className='absolute top-5 right-5 z-100 text-gray-800'>
+      <div className='absolute top-5 right-5 z-100'>
         {isOpen ? (
           <div>
             <X />
           </div>
         ) : (
-          <div className='text-white'>
+          <div className=''>
             <Menu />
           </div>
         )}
@@ -39,18 +39,18 @@ export const MenuBar = () => {
         onClick={toggle1}
         className={
           isOpen
-            ? 'absolute top-0 right-0 min-w-[100%] min-h-dvh p-10 bg-amber-50 text-[18px] text-gray-900 transition-all ease-in-out'
+            ? 'absolute top-0 right-0 min-w-[100%] min-h-dvh p-10 bg-[#1c1d30] text-[18px] transition-all ease-in-out'
             : 'sm:hidden translate-x-[100%]'
         }
       >
         <div className='m-10'>
-          <ul className='pt-20 hover:border-b-3 hover:border-green-700'>
+          <ul className='mt-20 hover:border-b-3 hover:border-green-700'>
             <Link href='/'>Home</Link>
           </ul>
-          <ul className='pt-20 hover:border-b-3 hover:border-green-700'>
+          <ul className='mt-20 hover:border-b-3 hover:border-green-700'>
             <Link href='/about'>About</Link>
           </ul>
-          <ul className='pt-20 hover:border-b-3 hover:border-green-700'>
+          <ul className='mt-20 hover:border-b-3 hover:border-green-700'>
             <Link href='/contact'>Contact</Link>
           </ul>
         </div>
