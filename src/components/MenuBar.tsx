@@ -43,15 +43,21 @@ export const MenuBar = () => {
             : 'sm:hidden translate-x-[100%]'
         }
       >
-        <div className='m-10'>
+        <div className='mt-10 ml-4'>
           <ul className='mt-20 hover:border-b-3 hover:border-green-700'>
-            <Link href='/'>Home</Link>
+            <Link href='/' title='Home'>
+              Home
+            </Link>
           </ul>
           <ul className='mt-20 hover:border-b-3 hover:border-green-700'>
-            <Link href='/about'>About</Link>
+            <Link href='/about' title='About'>
+              About
+            </Link>
           </ul>
           <ul className='mt-20 hover:border-b-3 hover:border-green-700'>
-            <Link href='/contact'>Contact</Link>
+            <Link href='/contact' title='Contact'>
+              Contact
+            </Link>
           </ul>
         </div>
       </div>
