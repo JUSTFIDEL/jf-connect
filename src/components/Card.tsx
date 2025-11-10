@@ -16,9 +16,9 @@ const Card = ({ title, desc, amount, image }: Props) => {
       </div>
       <div className='flex flex-col w-full text-left gap-1'>
         <h1 className='text-[12px] font-bold'>{title}</h1>
-        <p className='text-[10px] text-white/70'>{desc}</p>
+        {/* <p className='text-[10px] text-white/70'>{desc}</p> */}
 
-        <h1 className='text-[12px] font-bold'>₦{amount}</h1>
+        {/* <h1 className='text-[12px] font-bold'>₦{amount}</h1> */}
       </div>
     </div>
   );
